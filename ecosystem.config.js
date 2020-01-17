@@ -3,7 +3,7 @@ module.exports = {
       {
         name: 'weather-app',
         script: './src/index.js',
-        // instances: 'max',
+        instances: 'max',
         env: {
             NODE_ENV: "development",
           },
